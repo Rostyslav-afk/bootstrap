@@ -2,12 +2,18 @@ header {
     padding: 15px;
 }
 
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
 /* hero */
 .hero {
     background: rgb(2, 0, 36);
-    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(16, 16, 86, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(16, 16, 86, 1) 0%, rgba(0, 212, 255, 1) 75%);
     height: 80vh;
-
+    
 }
 
 .hero-logo {
@@ -41,7 +47,7 @@ header {
     background: rgb(0, 137, 250);
     color: white;
     font-size: 20px;
-    
+    border: 1px solid white;
 }
 
 /* cards */
@@ -67,3 +73,5 @@ header {
 .carousel-title {
     text-align: center;
 }
+
+/* футер */
